@@ -22,6 +22,9 @@ public class main {
 		lsLine.setFloodlight(true);
 		LightSensor lsNavi = new LightSensor(SensorPort.S2);
 		lsNavi.setFloodlight(true);
+		
+		Knot startingKnot;
+		//startingKnot.add
 
 		dataOut.writeUTF("t lvLine lvNavi\n");
 
